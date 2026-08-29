@@ -1,0 +1,381 @@
+VAKA V8.1.13 — COMMAND AUDIT
+
+Static audit only. Telegram live E2E cannot be executed in this environment because aiogram is not installed and no live bot session is available.
+Slash command tokens found in Command decorators: 154
+No-slash aliases in unified registry: 279
+
+NEWLY ADDED HANDLERS:
+- sayall / сказать всем
+- stopchat / стоп чат
+- startchat / запуск чат
+- clearall / снять все ограничения / убрать все ограничения
+- mystats / моя статистика / моя стата
+- myactivity / моя активность
+
+COMMAND HANDLERS:
+- command_help: /help, /h
+- command_panel: /panel, /pan
+- command_profile: /profile, /prof
+- command_ff: /ff
+- command_register: /register, /reg
+- command_top: /top, /t
+- command_stats: /stats, /st
+- command_history: /history, /hist
+- command_users: /users, /us
+- command_set_activity: /set
+- command_activity: /activity, /act
+- command_week: /week, /wk
+- command_publish: /publish, /pub
+- command_achievements: /achievements, /ach
+- command_progress: /progress, /prog
+- command_streak: /streak
+- command_coin_top: /coinstop, /coin_top
+- command_tournaments: /tournaments, /tournament
+- command_rules: /rules
+- command_greet: /greet
+- command_ref: /ref, /referral
+- command_coins: /coins, /coin
+- command_shop: /shop
+- command_shopadd: /shopadd
+- command_shopremove: /shopremove
+- command_setcoins: /setcoins
+- command_shopproducts: /shopproducts
+- command_shoprequests: /shoprequests
+- command_say_all: /sayall, /сказатьвсем
+- command_stop_chat: /stopchat, /стопчат
+- command_start_chat: /startchat, /запускчат
+- command_clear_all_restrictions: /clearall, /снятьвсеограничения, /убратьвсеограничения
+- command_my_stats: /mystats, /моястатистика
+- command_my_activity: /myactivity, /мояактивность
+- command_summon: /summon, /call
+- command_warn: /legacy_warn
+- command_mute: /mute
+- command_unmute: /unmute
+- command_unwarn: /unwarn, /clearwarnings
+- command_warnings: /warnings, /warns
+- command_ban: /ban
+- command_unban: /unban
+- command_kick: /kick
+- command_whoami: /whoami
+- command_who: /who, /whois
+- command_user_id: /id, /userid
+- command_ping: /ping
+- command_chatinfo: /chatinfo
+- command_random: /random
+- command_choose: /choose
+- command_yesno: /yesno
+- command_total_activity: /total
+- command_promote: /promote
+- command_demote: /demote
+- command_setrole: /role, /setrole
+- command_admins: /admins, /administrators, /whoadmins
+- command_rank_adminpanel: /adminpanel
+- command_addlist: /addlist
+- command_adduser: /adduser
+- command_unbind: /unbind
+- command_removeplayer: /removeplayer
+- command_refresh: /refresh
+- command_logs: /logs
+- command_guest: /legacy_guest
+- command_apply: /legacy_apply
+- command_kv: /legacy_kv
+- command_marry: /legacy_marry
+- command_divorce: /divorce, /развод
+- command_guest_v71: /guest, /guestpanel, /гость
+- command_apply_v71: /apply, /заявка, /вступить, /join, /join_guild
+- command_kvrosters: /kvrosters, /составыкв
+- command_kvcreate_v71: /kvcreate, /создатькв, /квсоздать
+- command_applications_v71: /applications, /заявки, /applications_list
+- command_kv_rules: /kvrules, /kv_rules, /правилакв, /правила_кв, /квправила
+- command_guild_rules: /guildrules, /guild_rules, /правилагильдии, /правила_гильдии
+- command_ffstats: /ffstats, /ffstat, /статфф
+- command_ffoutfit: /ffoutfit, /outfit, /образ
+- command_guildinfo: /guildinfo, /гильдияinfo, /гильдия
+- command_bancheck: /bancheck, /проверкабана
+- command_ffapi: /ffapi, /siambhau
+- command_warn_v71: /warn, /пред, /варн, /предупреждение
+- command_clear_chat: /clear, /clean, /очистить
+- iris_rp_help: /rp, /рп, /rpcommands, /рпкоманды
+- iris_rp_on: /rp_on, /рпон
+- iris_rp_off: /rp_off, /рпоф
+
+FINAL NO-SLASH ALIASES:
+- +рп -> rp_on
+- -рп -> rp_off
+- ach -> achievements
+- achievements -> achievements
+- act -> activity
+- activity -> activity
+- addlist -> addlist
+- adduser -> adduser
+- admin panel -> adminpanel
+- administrators -> admins
+- adminpanel -> adminpanel
+- admins -> admins
+- applications -> applications
+- applications_list -> applications
+- apply -> apply
+- ban -> ban
+- bancheck -> bancheck
+- call -> summon
+- chatinfo -> chatinfo
+- choose -> choose
+- clean -> clear
+- clear -> clear
+- clear all restrictions -> clearall
+- clearall -> clearall
+- clearwarnings -> unwarn
+- coin -> coins
+- coin top -> coinstop
+- coin_top -> coinstop
+- coins -> coins
+- coinstop -> coinstop
+- demote -> demote
+- divorce -> divorce
+- ff -> ff
+- ffapi -> ffapi
+- ffoutfit -> ffoutfit
+- ffstat -> ffstats
+- ffstats -> ffstats
+- free fire -> ff
+- greet -> greet
+- guest -> guest
+- guestpanel -> guest
+- guild rules -> guildrules
+- guild_rules -> guildrules
+- guildinfo -> guildinfo
+- guildrules -> guildrules
+- h -> help
+- help -> help
+- hist -> history
+- history -> history
+- id -> userid
+- join -> apply
+- join guild -> apply
+- join_guild -> apply
+- kick -> kick
+- kv -> kv
+- kv rosters -> kvrosters
+- kv rules -> kvrules
+- kv_rules -> kvrules
+- kvcreate -> kvcreate
+- kvrules -> kvrules
+- kvs -> kvs
+- logs -> logs
+- main -> panel
+- main panel -> panel
+- mainpanel -> panel
+- marriages -> marry
+- marry -> marry
+- mute -> mute
+- my activity -> myactivity
+- my profile -> profile
+- my stats -> mystats
+- myactivity -> myactivity
+- mystats -> mystats
+- outfit -> ffoutfit
+- pan -> panel
+- ping -> ping
+- prof -> profile
+- profile -> profile
+- prog -> progress
+- progress -> progress
+- promote -> promote
+- pub -> publish
+- publish -> publish
+- random -> random
+- ref -> ref
+- referral -> ref
+- referrals -> ref
+- refresh -> refresh
+- register -> register
+- registration -> register
+- removeplayer -> removeplayer
+- rp -> rp
+- rp commands -> rpcommands
+- rp_off -> rp_off
+- rp_on -> rp_on
+- rpcommands -> rpcommands
+- rules -> rules
+- say all -> sayall
+- sayall -> sayall
+- set -> set
+- setcoins -> setcoins
+- setrole -> setrole
+- shop -> shop
+- shopadd -> shopadd
+- shopproducts -> shopproducts
+- shopremove -> shopremove
+- shoprequests -> shoprequests
+- siambhau -> ffapi
+- st -> stats
+- start chat -> startchat
+- startchat -> startchat
+- statistics -> stats
+- stats -> stats
+- stop chat -> stopchat
+- stopchat -> stopchat
+- streak -> streak
+- summon -> summon
+- t -> top
+- top -> top
+- total -> total
+- tournament -> tournaments
+- tournaments -> tournaments
+- unban -> unban
+- unbind -> unbind
+- unmute -> unmute
+- unwarn -> unwarn
+- us -> users
+- userid -> userid
+- users -> users
+- warn -> warn
+- warnings -> warnings
+- warns -> warnings
+- week -> week
+- who -> who
+- who am i -> whoami
+- whoadmins -> admins
+- whoami -> whoami
+- whois -> who
+- wk -> week
+- yesno -> yesno
+- админ панель -> adminpanel
+- администраторы -> admins
+- админка -> adminpanel
+- админы -> admins
+- айди -> userid
+- активность -> activity
+- бан -> ban
+- брак -> marry
+- браки -> marry
+- варн -> warn
+- вступить -> apply
+- выбери -> choose
+- выдать коины -> setcoins
+- гильдия -> guildinfo
+- гильдия правила -> guildrules
+- гильдияinfo -> guildinfo
+- главная -> panel
+- гостевая -> guest
+- гостевая панель -> guest
+- гость -> guest
+- данет -> yesno
+- добавить -> adduser
+- добавить списком -> addlist
+- добавить товар -> shopadd
+- достижения -> achievements
+- запуск чат -> startchat
+- зарегистрироваться -> register
+- заявка -> apply
+- заявки -> applications
+- заявки магазина -> shoprequests
+- ид -> userid
+- инфо гильдии -> guildinfo
+- инфо чата -> chatinfo
+- история -> history
+- итого -> total
+- кв -> kv
+- кв правила -> kvrules
+- кв предложение -> kvproposal
+- кв состав -> kvrosters
+- квправила -> kvrules
+- квсоздать -> kvcreate
+- квшки -> kvs
+- кик -> kick
+- коин топ -> coinstop
+- коины -> coins
+- команды -> help
+- кто -> who
+- кто админ -> admins
+- кто здесь власть -> admins
+- кто я -> whoami
+- логи -> logs
+- магазин -> shop
+- мой акк -> profile
+- мой баланс -> coins
+- мой брак -> marry
+- мой профиль -> profile
+- монеты -> coins
+- моя активность -> myactivity
+- моя стата -> mystats
+- моя статистика -> mystats
+- мут -> mute
+- назначить роль -> setrole
+- наказания -> warnings
+- неделя -> week
+- ники -> users
+- обновить -> refresh
+- образ -> ffoutfit
+- основная панель -> panel
+- отвязать -> unbind
+- очистить -> clear
+- очистить чат -> clear
+- панель -> panel
+- пинг -> ping
+- повысить -> promote
+- помощь -> help
+- понизить -> demote
+- права -> adminpanel
+- правила -> rules
+- правила гильдии -> guildrules
+- правила кв -> kvrules
+- правила_гильдии -> guildrules
+- правила_кв -> kvrules
+- правилагильдии -> guildrules
+- правилакв -> kvrules
+- пред -> warn
+- предложить кв -> kvproposal
+- предупреждение -> warn
+- предупреждения -> warnings
+- преды -> warnings
+- привет -> greet
+- проверка бана -> bancheck
+- проверкабана -> bancheck
+- прогресс -> progress
+- профиль -> profile
+- публикация -> publish
+- разбан -> unban
+- развестись -> divorce
+- развод -> divorce
+- размут -> unmute
+- рандом -> random
+- рег -> register
+- регистрация -> register
+- рейтинг -> top
+- реферал -> ref
+- рефералы -> ref
+- реферальная ссылка -> ref
+- роль -> setrole
+- рп -> rp
+- рп команды -> rpcommands
+- рпкоманды -> rpcommands
+- рпон -> rp_on
+- рпоф -> rp_off
+- серия -> streak
+- сказать всем -> sayall
+- снять варн -> unwarn
+- снять варны -> unwarn
+- снять все ограничения -> clearall
+- снять мут -> unmute
+- снять предупреждения -> unwarn
+- созвать -> summon
+- создать кв -> kvcreate
+- создатькв -> kvcreate
+- созыв -> summon
+- состав кв -> kvrosters
+- составы кв -> kvrosters
+- стата -> stats
+- статистика -> stats
+- статфф -> ffstats
+- стоп чат -> stopchat
+- товары магазина -> shopproducts
+- топ -> top
+- турниры -> tournaments
+- убрать все ограничения -> clearall
+- удалить -> removeplayer
+- удалить товар -> shopremove
+- установить активность -> set
+- участники -> users
+- чат инфо -> chatinfo
+- чистка чата -> clear

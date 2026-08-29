@@ -1,0 +1,34 @@
+VAKA V2.8.0 BUILD AUDIT
+========================
+Base: Vaka V 2.7.zip
+Rule: additive changes only; no original file removed.
+
+Implemented:
+- Grouped admin panel with requested sections and submenu navigation.
+- Admin panel access restricted to explicit ranks 6-8 allowlist.
+- Moderation management commands restricted to ranks 6-8.
+- Admin commands screen.
+- Existing command aliases preserved; additional aliases for admin commands, scheduled/history KV and summon.
+- KV scheduled list.
+- KV history storage and result command.
+- 30-minute KV warning loop for scheduled matches.
+- Bot message auto-expiry after 5 minutes, with pinned/important protection.
+- User command deletion after a handler produced a bot reply.
+- 12-hour cleanup interval for observed GIFs, stickers, voice/video-note spam and commands.
+- Local Vaka responses for "кто молодец", "кто меня любит", and "инфа ...".
+- Existing RP/18+ RP registries were not removed or rewritten.
+- Existing activity rollover implementation retained; DB migration is additive.
+- Existing guild/KV rules assets retained.
+
+Database migration:
+- guild_applications: why_join/how_found/extra_info/review_note retained via migration.
+- kv_matches: warning_sent added.
+- kv_history table added.
+- get_player_by_nick added.
+
+Validation:
+- Python compileall/py_compile: PASS
+- ZIP testzip: PASS
+- Original 68 files preserved exactly by relative path.
+- SQLite source DB integrity check: PASS
+- Source DB players: 18

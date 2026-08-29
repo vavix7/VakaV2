@@ -1,0 +1,33 @@
+VAKA V6.8.4 — FORMAT FOR ADB/FREE FIRE MONITORING
+
+The bot accepts automatic monitoring data ONLY in MONITORING_CHAT_ID.
+
+Strict format:
+
+VAKA_MONITORING_V1
+WEEK|2026-08-24
+PLAYER|UID|NICK|WEEK_ACTIVITY|GAME_TOTAL
+PLAYER|UID|NICK|WEEK_ACTIVITY|GAME_TOTAL
+TOURNAMENT|TOURNAMENT_ID|UID|POINTS
+END
+
+Example:
+
+VAKA_MONITORING_V1
+WEEK|2026-08-24
+PLAYER|14840827705|Vavix м?|600|600
+PLAYER|102370572|chr Voíɴ|2464|47692
+PLAYER|123456789|Vavixf?|220|27619
+PLAYER|987654321|omgoo|2298|14318
+TOURNAMENT|1|14840827705|125
+TOURNAMENT|1|102370572|114
+END
+
+IMPORTANT:
+- WEEK must be the Monday of the current bot week.
+- WEEK_ACTIVITY is the only value used for weekly activity, weekly coins and lifetime rollover.
+- GAME_TOTAL is informational only and NEVER changes lifetime activity or coins.
+- PLAYER activity is an absolute snapshot, not a delta. Sending 2464 twice does NOT add 2464 twice.
+- Monitoring snapshots can be sent every 3 hours.
+- TOURNAMENT lines update an existing tournament by its ID.
+- Do not send a human-formatted game table to arbitrary chats and expect it to be imported automatically.
